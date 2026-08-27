@@ -1,0 +1,702 @@
+[
+  {
+    "slug": "dallas-tx",
+    "name": "Dallas",
+    "state": "TX",
+    "country": "US",
+    "lat": 32.7767,
+    "lng": -96.797,
+    "venueCount": 57,
+    "url": "https://nabarfinder.com/city/dallas-tx/"
+  },
+  {
+    "slug": "miami-fl",
+    "name": "Miami",
+    "state": "FL",
+    "country": "US",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "venueCount": 49,
+    "url": "https://nabarfinder.com/city/miami-fl/"
+  },
+  {
+    "slug": "denver-co",
+    "name": "Denver",
+    "state": "CO",
+    "country": "US",
+    "lat": 39.7392,
+    "lng": -104.9903,
+    "venueCount": 45,
+    "url": "https://nabarfinder.com/city/denver-co/"
+  },
+  {
+    "slug": "houston-tx",
+    "name": "Houston",
+    "state": "TX",
+    "country": "US",
+    "lat": 29.7604,
+    "lng": -95.3698,
+    "venueCount": 41,
+    "url": "https://nabarfinder.com/city/houston-tx/"
+  },
+  {
+    "slug": "minneapolis-mn",
+    "name": "Minneapolis",
+    "state": "MN",
+    "country": "US",
+    "lat": 44.9778,
+    "lng": -93.265,
+    "venueCount": 41,
+    "url": "https://nabarfinder.com/city/minneapolis-mn/"
+  },
+  {
+    "slug": "singapore-sg",
+    "name": "Singapore",
+    "state": "Singapore",
+    "country": "SG",
+    "lat": 1.3521,
+    "lng": 103.8198,
+    "venueCount": 41,
+    "url": "https://nabarfinder.com/city/singapore-sg/"
+  },
+  {
+    "slug": "boston-ma",
+    "name": "Boston",
+    "state": "MA",
+    "country": "US",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "venueCount": 40,
+    "url": "https://nabarfinder.com/city/boston-ma/"
+  },
+  {
+    "slug": "philadelphia-pa",
+    "name": "Philadelphia",
+    "state": "PA",
+    "country": "US",
+    "lat": 39.9526,
+    "lng": -75.1652,
+    "venueCount": 40,
+    "url": "https://nabarfinder.com/city/philadelphia-pa/"
+  },
+  {
+    "slug": "chicago-il",
+    "name": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "venueCount": 39,
+    "url": "https://nabarfinder.com/city/chicago-il/"
+  },
+  {
+    "slug": "san-francisco-ca",
+    "name": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "venueCount": 39,
+    "url": "https://nabarfinder.com/city/san-francisco-ca/"
+  },
+  {
+    "slug": "atlanta-ga",
+    "name": "Atlanta",
+    "state": "GA",
+    "country": "US",
+    "lat": 33.749,
+    "lng": -84.388,
+    "venueCount": 38,
+    "url": "https://nabarfinder.com/city/atlanta-ga/"
+  },
+  {
+    "slug": "london-uk",
+    "name": "London",
+    "state": "England",
+    "country": "GB",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "venueCount": 32,
+    "url": "https://nabarfinder.com/city/london-uk/"
+  },
+  {
+    "slug": "melbourne-au",
+    "name": "Melbourne",
+    "state": "Victoria",
+    "country": "AU",
+    "lat": -37.8136,
+    "lng": 144.9631,
+    "venueCount": 32,
+    "url": "https://nabarfinder.com/city/melbourne-au/"
+  },
+  {
+    "slug": "tampa-fl",
+    "name": "Tampa",
+    "state": "FL",
+    "country": "US",
+    "lat": 27.9506,
+    "lng": -82.4572,
+    "venueCount": 32,
+    "url": "https://nabarfinder.com/city/tampa-fl/"
+  },
+  {
+    "slug": "manchester-uk",
+    "name": "Manchester",
+    "state": "England",
+    "country": "GB",
+    "lat": 53.4808,
+    "lng": -2.2426,
+    "venueCount": 30,
+    "url": "https://nabarfinder.com/city/manchester-uk/"
+  },
+  {
+    "slug": "new-york-ny",
+    "name": "New York",
+    "state": "NY",
+    "country": "US",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "venueCount": 30,
+    "url": "https://nabarfinder.com/city/new-york-ny/"
+  },
+  {
+    "slug": "toronto-on",
+    "name": "Toronto",
+    "state": "Ontario",
+    "country": "CA",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "venueCount": 30,
+    "url": "https://nabarfinder.com/city/toronto-on/"
+  },
+  {
+    "slug": "orlando-fl",
+    "name": "Orlando",
+    "state": "FL",
+    "country": "US",
+    "lat": 28.5384,
+    "lng": -81.3789,
+    "venueCount": 29,
+    "url": "https://nabarfinder.com/city/orlando-fl/"
+  },
+  {
+    "slug": "phoenix-az",
+    "name": "Phoenix",
+    "state": "AZ",
+    "country": "US",
+    "lat": 33.4484,
+    "lng": -112.074,
+    "venueCount": 29,
+    "url": "https://nabarfinder.com/city/phoenix-az/"
+  },
+  {
+    "slug": "austin-tx",
+    "name": "Austin",
+    "state": "TX",
+    "country": "US",
+    "lat": 30.2672,
+    "lng": -97.7431,
+    "venueCount": 27,
+    "url": "https://nabarfinder.com/city/austin-tx/"
+  },
+  {
+    "slug": "las-vegas-nv",
+    "name": "Las Vegas",
+    "state": "NV",
+    "country": "US",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "venueCount": 24,
+    "url": "https://nabarfinder.com/city/las-vegas-nv/"
+  },
+  {
+    "slug": "portland-or",
+    "name": "Portland",
+    "state": "OR",
+    "country": "US",
+    "lat": 45.5152,
+    "lng": -122.6784,
+    "venueCount": 24,
+    "url": "https://nabarfinder.com/city/portland-or/"
+  },
+  {
+    "slug": "seattle-wa",
+    "name": "Seattle",
+    "state": "WA",
+    "country": "US",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "venueCount": 22,
+    "url": "https://nabarfinder.com/city/seattle-wa/"
+  },
+  {
+    "slug": "cleveland-oh",
+    "name": "Cleveland",
+    "state": "OH",
+    "country": "US",
+    "lat": 41.4993,
+    "lng": -81.6944,
+    "venueCount": 21,
+    "url": "https://nabarfinder.com/city/cleveland-oh/"
+  },
+  {
+    "slug": "los-angeles-ca",
+    "name": "Los Angeles",
+    "state": "CA",
+    "country": "US",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "venueCount": 21,
+    "url": "https://nabarfinder.com/city/los-angeles-ca/"
+  },
+  {
+    "slug": "salt-lake-city-ut",
+    "name": "Salt Lake City",
+    "state": "UT",
+    "country": "US",
+    "lat": 40.7608,
+    "lng": -111.891,
+    "venueCount": 21,
+    "url": "https://nabarfinder.com/city/salt-lake-city-ut/"
+  },
+  {
+    "slug": "san-diego-ca",
+    "name": "San Diego",
+    "state": "CA",
+    "country": "US",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "venueCount": 21,
+    "url": "https://nabarfinder.com/city/san-diego-ca/"
+  },
+  {
+    "slug": "st-louis-mo",
+    "name": "St. Louis",
+    "state": "MO",
+    "country": "US",
+    "lat": 38.627,
+    "lng": -90.1994,
+    "venueCount": 21,
+    "url": "https://nabarfinder.com/city/st-louis-mo/"
+  },
+  {
+    "slug": "asheville-nc",
+    "name": "Asheville",
+    "state": "NC",
+    "country": "US",
+    "lat": 35.5951,
+    "lng": -82.5515,
+    "venueCount": 20,
+    "url": "https://nabarfinder.com/city/asheville-nc/"
+  },
+  {
+    "slug": "charleston-sc",
+    "name": "Charleston",
+    "state": "SC",
+    "country": "US",
+    "lat": 32.7765,
+    "lng": -79.9311,
+    "venueCount": 20,
+    "url": "https://nabarfinder.com/city/charleston-sc/"
+  },
+  {
+    "slug": "charlotte-nc",
+    "name": "Charlotte",
+    "state": "NC",
+    "country": "US",
+    "lat": 35.2271,
+    "lng": -80.8431,
+    "venueCount": 20,
+    "url": "https://nabarfinder.com/city/charlotte-nc/"
+  },
+  {
+    "slug": "cincinnati-oh",
+    "name": "Cincinnati",
+    "state": "OH",
+    "country": "US",
+    "lat": 39.1031,
+    "lng": -84.512,
+    "venueCount": 20,
+    "url": "https://nabarfinder.com/city/cincinnati-oh/"
+  },
+  {
+    "slug": "detroit-mi",
+    "name": "Detroit",
+    "state": "MI",
+    "country": "US",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "venueCount": 20,
+    "url": "https://nabarfinder.com/city/detroit-mi/"
+  },
+  {
+    "slug": "grand-rapids-mi",
+    "name": "Grand Rapids",
+    "state": "MI",
+    "country": "US",
+    "lat": 42.9634,
+    "lng": -85.6681,
+    "venueCount": 20,
+    "url": "https://nabarfinder.com/city/grand-rapids-mi/"
+  },
+  {
+    "slug": "honolulu-hi",
+    "name": "Honolulu",
+    "state": "HI",
+    "country": "US",
+    "lat": 21.3069,
+    "lng": -157.8583,
+    "venueCount": 20,
+    "url": "https://nabarfinder.com/city/honolulu-hi/"
+  },
+  {
+    "slug": "indianapolis-in",
+    "name": "Indianapolis",
+    "state": "IN",
+    "country": "US",
+    "lat": 39.7684,
+    "lng": -86.1581,
+    "venueCount": 20,
+    "url": "https://nabarfinder.com/city/indianapolis-in/"
+  },
+  {
+    "slug": "kansas-city-mo",
+    "name": "Kansas City",
+    "state": "MO",
+    "country": "US",
+    "lat": 39.0997,
+    "lng": -94.5786,
+    "venueCount": 20,
+    "url": "https://nabarfinder.com/city/kansas-city-mo/"
+  },
+  {
+    "slug": "milwaukee-wi",
+    "name": "Milwaukee",
+    "state": "WI",
+    "country": "US",
+    "lat": 43.0389,
+    "lng": -87.9065,
+    "venueCount": 20,
+    "url": "https://nabarfinder.com/city/milwaukee-wi/"
+  },
+  {
+    "slug": "pittsburgh-pa",
+    "name": "Pittsburgh",
+    "state": "PA",
+    "country": "US",
+    "lat": 40.4406,
+    "lng": -79.9959,
+    "venueCount": 20,
+    "url": "https://nabarfinder.com/city/pittsburgh-pa/"
+  },
+  {
+    "slug": "washington-dc",
+    "name": "Washington",
+    "state": "DC",
+    "country": "US",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "venueCount": 20,
+    "url": "https://nabarfinder.com/city/washington-dc/"
+  },
+  {
+    "slug": "baltimore-md",
+    "name": "Baltimore",
+    "state": "MD",
+    "country": "US",
+    "lat": 39.2904,
+    "lng": -76.6122,
+    "venueCount": 19,
+    "url": "https://nabarfinder.com/city/baltimore-md/"
+  },
+  {
+    "slug": "columbus-oh",
+    "name": "Columbus",
+    "state": "OH",
+    "country": "US",
+    "lat": 39.9612,
+    "lng": -82.9988,
+    "venueCount": 19,
+    "url": "https://nabarfinder.com/city/columbus-oh/"
+  },
+  {
+    "slug": "louisville-ky",
+    "name": "Louisville",
+    "state": "KY",
+    "country": "US",
+    "lat": 38.2527,
+    "lng": -85.7585,
+    "venueCount": 19,
+    "url": "https://nabarfinder.com/city/louisville-ky/"
+  },
+  {
+    "slug": "nashville-tn",
+    "name": "Nashville",
+    "state": "TN",
+    "country": "US",
+    "lat": 36.1627,
+    "lng": -86.7816,
+    "venueCount": 19,
+    "url": "https://nabarfinder.com/city/nashville-tn/"
+  },
+  {
+    "slug": "raleigh-durham-nc",
+    "name": "Raleigh-Durham",
+    "state": "NC",
+    "country": "US",
+    "lat": 35.8868,
+    "lng": -78.7684,
+    "venueCount": 19,
+    "url": "https://nabarfinder.com/city/raleigh-durham-nc/"
+  },
+  {
+    "slug": "madison-wi",
+    "name": "Madison",
+    "state": "WI",
+    "country": "US",
+    "lat": 43.0731,
+    "lng": -89.4012,
+    "venueCount": 18,
+    "url": "https://nabarfinder.com/city/madison-wi/"
+  },
+  {
+    "slug": "new-orleans-la",
+    "name": "New Orleans",
+    "state": "LA",
+    "country": "US",
+    "lat": 29.9511,
+    "lng": -90.0715,
+    "venueCount": 18,
+    "url": "https://nabarfinder.com/city/new-orleans-la/"
+  },
+  {
+    "slug": "sacramento-ca",
+    "name": "Sacramento",
+    "state": "CA",
+    "country": "US",
+    "lat": 38.5816,
+    "lng": -121.4944,
+    "venueCount": 18,
+    "url": "https://nabarfinder.com/city/sacramento-ca/"
+  },
+  {
+    "slug": "bend-or",
+    "name": "Bend",
+    "state": "OR",
+    "country": "US",
+    "lat": 44.0582,
+    "lng": -121.3153,
+    "venueCount": 15,
+    "url": "https://nabarfinder.com/city/bend-or/"
+  },
+  {
+    "slug": "san-antonio-tx",
+    "name": "San Antonio",
+    "state": "TX",
+    "country": "US",
+    "lat": 29.4252,
+    "lng": -98.4946,
+    "venueCount": 15,
+    "url": "https://nabarfinder.com/city/san-antonio-tx/"
+  },
+  {
+    "slug": "albuquerque-nm",
+    "name": "Albuquerque",
+    "state": "NM",
+    "country": "US",
+    "lat": 35.0844,
+    "lng": -106.6504,
+    "venueCount": 13,
+    "url": "https://nabarfinder.com/city/albuquerque-nm/"
+  },
+  {
+    "slug": "boise-id",
+    "name": "Boise",
+    "state": "ID",
+    "country": "US",
+    "lat": 43.615,
+    "lng": -116.2023,
+    "venueCount": 13,
+    "url": "https://nabarfinder.com/city/boise-id/"
+  },
+  {
+    "slug": "burlington-vt",
+    "name": "Burlington",
+    "state": "VT",
+    "country": "US",
+    "lat": 44.4759,
+    "lng": -73.2121,
+    "venueCount": 12,
+    "url": "https://nabarfinder.com/city/burlington-vt/"
+  },
+  {
+    "slug": "chattanooga-tn",
+    "name": "Chattanooga",
+    "state": "TN",
+    "country": "US",
+    "lat": 35.0456,
+    "lng": -85.3097,
+    "venueCount": 12,
+    "url": "https://nabarfinder.com/city/chattanooga-tn/"
+  },
+  {
+    "slug": "providence-ri",
+    "name": "Providence",
+    "state": "RI",
+    "country": "US",
+    "lat": 41.824,
+    "lng": -71.4128,
+    "venueCount": 12,
+    "url": "https://nabarfinder.com/city/providence-ri/"
+  },
+  {
+    "slug": "savannah-ga",
+    "name": "Savannah",
+    "state": "GA",
+    "country": "US",
+    "lat": 32.0809,
+    "lng": -81.0912,
+    "venueCount": 12,
+    "url": "https://nabarfinder.com/city/savannah-ga/"
+  },
+  {
+    "slug": "richmond-va",
+    "name": "Richmond",
+    "state": "VA",
+    "country": "US",
+    "lat": 37.5407,
+    "lng": -77.436,
+    "venueCount": 11,
+    "url": "https://nabarfinder.com/city/richmond-va/"
+  },
+  {
+    "slug": "tulsa-ok",
+    "name": "Tulsa",
+    "state": "OK",
+    "country": "US",
+    "lat": 36.154,
+    "lng": -95.9928,
+    "venueCount": 11,
+    "url": "https://nabarfinder.com/city/tulsa-ok/"
+  },
+  {
+    "slug": "virginia-beach-va",
+    "name": "Virginia Beach",
+    "state": "VA",
+    "country": "US",
+    "lat": 36.8529,
+    "lng": -75.978,
+    "venueCount": 11,
+    "url": "https://nabarfinder.com/city/virginia-beach-va/"
+  },
+  {
+    "slug": "birmingham-al",
+    "name": "Birmingham",
+    "state": "AL",
+    "country": "US",
+    "lat": 33.5186,
+    "lng": -86.8104,
+    "venueCount": 10,
+    "url": "https://nabarfinder.com/city/birmingham-al/"
+  },
+  {
+    "slug": "des-moines-ia",
+    "name": "Des Moines",
+    "state": "IA",
+    "country": "US",
+    "lat": 41.5868,
+    "lng": -93.625,
+    "venueCount": 10,
+    "url": "https://nabarfinder.com/city/des-moines-ia/"
+  },
+  {
+    "slug": "greenville-sc",
+    "name": "Greenville",
+    "state": "SC",
+    "country": "US",
+    "lat": 34.8526,
+    "lng": -82.394,
+    "venueCount": 10,
+    "url": "https://nabarfinder.com/city/greenville-sc/"
+  },
+  {
+    "slug": "omaha-ne",
+    "name": "Omaha",
+    "state": "NE",
+    "country": "US",
+    "lat": 41.2565,
+    "lng": -95.9345,
+    "venueCount": 10,
+    "url": "https://nabarfinder.com/city/omaha-ne/"
+  },
+  {
+    "slug": "spokane-wa",
+    "name": "Spokane",
+    "state": "WA",
+    "country": "US",
+    "lat": 47.6588,
+    "lng": -117.426,
+    "venueCount": 10,
+    "url": "https://nabarfinder.com/city/spokane-wa/"
+  },
+  {
+    "slug": "portland-me",
+    "name": "Portland",
+    "state": "ME",
+    "country": "US",
+    "lat": 43.6591,
+    "lng": -70.2568,
+    "venueCount": 9,
+    "url": "https://nabarfinder.com/city/portland-me/"
+  },
+  {
+    "slug": "davie-fl",
+    "name": "Davie",
+    "state": "FL",
+    "country": "US",
+    "lat": 26.0744,
+    "lng": -80.2569,
+    "venueCount": 8,
+    "url": "https://nabarfinder.com/city/davie-fl/"
+  },
+  {
+    "slug": "easthampton-ma",
+    "name": "Easthampton",
+    "state": "MA",
+    "country": "US",
+    "lat": 42.2668,
+    "lng": -72.669,
+    "venueCount": 3,
+    "url": "https://nabarfinder.com/city/easthampton-ma/"
+  },
+  {
+    "slug": "kailua-kona-hi",
+    "name": "Kailua-Kona",
+    "state": "HI",
+    "country": "US",
+    "lat": 19.64,
+    "lng": -155.9969,
+    "venueCount": 2,
+    "url": "https://nabarfinder.com/city/kailua-kona-hi/"
+  },
+  {
+    "slug": "hilo-hi",
+    "name": "Hilo",
+    "state": "HI",
+    "country": "US",
+    "lat": 19.7241,
+    "lng": -155.0868,
+    "venueCount": 1,
+    "url": "https://nabarfinder.com/city/hilo-hi/"
+  },
+  {
+    "slug": "nashua-nh",
+    "name": "Nashua",
+    "state": "NH",
+    "country": "US",
+    "lat": 42.7654,
+    "lng": -71.4677,
+    "venueCount": 1,
+    "url": "https://nabarfinder.com/city/nashua-nh/"
+  }
+]

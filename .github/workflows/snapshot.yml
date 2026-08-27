@@ -1,0 +1,63 @@
+# Monthly snapshot of nabarfinder.com's public feed, committed here and tagged
+# as a release. Zenodo (once linked) mints a DOI from each release — it only
+# sees releases created AFTER the repo is toggled on at zenodo.org.
+# Hugging Face and Kaggle uploads run only when their tokens are configured.
+name: Snapshot
+on:
+  schedule:
+    - cron: '23 6 1 * *'   # 1st of the month, 06:23 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch feed and write snapshot
+        run: node scripts/snapshot.mjs
+      - name: Commit if changed
+        id: commit
+        run: |
+          git config user.name "nabarfinder-ops"
+          git config user.email "nabarfinder.ops@gmail.com"
+          git add snapshot
+          if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          TAG="v$(date -u +%Y.%m)"
+          git commit -m "Snapshot $(date -u +%Y-%m-%d)"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+      - name: Release (one per month; Zenodo listens to these)
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="${{ steps.commit.outputs.tag }}"
+          if gh release view "$TAG" >/dev/null 2>&1; then echo "release $TAG exists; skipping"; exit 0; fi
+          gh release create "$TAG" \
+            snapshot/venues.json snapshot/venues.csv snapshot/menu-items.csv snapshot/cities.json snapshot/SNAPSHOT.md \
+            --title "Snapshot $TAG" --notes-file snapshot/SNAPSHOT.md
+      - name: Hugging Face (only when HF_TOKEN is set)
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [ -z "$HF_TOKEN" ]; then echo "HF_TOKEN not set; skipping"; exit 0; fi
+          pip install -q -U huggingface_hub
+          hf upload nabarfinder/non-alcoholic-venues ./snapshot --repo-type dataset --commit-message "Snapshot ${{ steps.commit.outputs.tag }}"
+      - name: Kaggle (only when KAGGLE_KEY is set)
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+        run: |
+          if [ -z "$KAGGLE_KEY" ]; then echo "KAGGLE_KEY not set; skipping"; exit 0; fi
+          pip install -q -U kaggle
+          # kaggle needs a dataset-metadata.json beside the files; write it into a copy so the repo stays clean.
+          rm -rf /tmp/kaggle && cp -r ./snapshot /tmp/kaggle
+          printf '{"id":"%s/nabarfinder-non-alcoholic-venues","title":"NA Bar Finder: non-alcoholic venue data","licenses":[{"name":"CC-BY-4.0"}]}\n' "$KAGGLE_USERNAME" > /tmp/kaggle/dataset-metadata.json
+          kaggle datasets version -p /tmp/kaggle -m "Snapshot ${{ steps.commit.outputs.tag }}" --dir-mode zip

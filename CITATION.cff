@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "NA Bar Finder Venue Dataset"
+message: "If you use this dataset, please cite it and link to nabarfinder.com."
+type: dataset
+authors:
+  - name: "NA Bar Finder"
+    website: "https://nabarfinder.com"
+license: CC-BY-4.0
+url: "https://nabarfinder.com/developers/"
+repository-code: "https://github.com/nabarfinderops/data"
+abstract: >-
+  Bars, restaurants, cafes, kava bars and bottle shops with verified
+  non-alcoholic drink programs across 70 cities in the US, UK, Canada,
+  Australia and Singapore. Every record is human-verified and carries the date
+  it was last checked; venues with a verified NA menu carry the menu items and
+  the date the menu was last confirmed. Absent fields mean the detail is not
+  known or not published, never zero. Monthly snapshots of the live feed at
+  https://nabarfinder.com/api/v1/venues.json.
