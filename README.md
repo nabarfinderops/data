@@ -1,5 +1,7 @@
 # NA Bar Finder Venue Dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22133238.svg)](https://doi.org/10.5281/zenodo.22133238)
+
 Monthly snapshots of [nabarfinder.com](https://nabarfinder.com)'s public feed:
 bars, restaurants, cafes, kava bars and bottle shops with verified non-alcoholic
 drink programs across 70 cities in the US, UK, Canada, Australia and Singapore.
@@ -50,10 +52,12 @@ this dataset's coverage, not every venue in a city.
 See [CITATION.cff](CITATION.cff). Releases are tagged monthly (`vYYYY.MM`); Zenodo
 archives each one and mints a DOI.
 
-**DOI:** pending — the Zenodo archive is being linked; this section will carry the
-concept DOI and a ready-to-paste citation once the first archived release exists.
+**DOI (all versions):** https://doi.org/10.5281/zenodo.22133238 — always resolves to the latest
+snapshot; each monthly version also has its own DOI on Zenodo.
 
-> NA Bar Finder (2026). *NA Bar Finder Venue Dataset* (v2026.08) [Data set]. https://github.com/nabarfinderops/data
+Ready to paste:
+
+> NA Bar Finder (2026). *NA Bar Finder Venue Dataset* (v2026.08) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22133238
 
 ## Also available
 

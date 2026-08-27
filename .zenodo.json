@@ -1,0 +1,13 @@
+{
+  "upload_type": "dataset",
+  "title": "NA Bar Finder Venue Dataset",
+  "creators": [{ "name": "NA Bar Finder" }],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "description": "Bars, restaurants, cafes, kava bars and bottle shops with verified non-alcoholic drink programs across 70 cities in the US, UK, Canada, Australia and Singapore. Every record is human-verified and carries the date it was last checked; venues with a verified NA menu carry the menu items and the date the menu was last confirmed. Absent fields mean the detail is not known or not published, never zero. Monthly snapshots of the live feed at https://nabarfinder.com/api/v1/venues.json — field documentation at https://github.com/nabarfinderops/data.",
+  "keywords": ["non-alcoholic", "sober bars", "alcohol-free venues", "mocktails", "non-alcoholic beer", "kava bars", "hospitality", "open data"],
+  "related_identifiers": [
+    { "identifier": "https://nabarfinder.com/api/v1/venues.json", "relation": "isDerivedFrom", "resource_type": "dataset" },
+    { "identifier": "https://nabarfinder.com/developers/", "relation": "isDocumentedBy", "resource_type": "publication-other" }
+  ]
+}

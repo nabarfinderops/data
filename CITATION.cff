@@ -6,6 +6,7 @@ authors:
   - name: "NA Bar Finder"
     website: "https://nabarfinder.com"
 license: CC-BY-4.0
+doi: 10.5281/zenodo.22133238
 url: "https://nabarfinder.com/developers/"
 repository-code: "https://github.com/nabarfinderops/data"
 abstract: >-
