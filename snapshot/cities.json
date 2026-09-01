@@ -120,16 +120,6 @@
     "url": "https://nabarfinder.com/city/london-uk/"
   },
   {
-    "slug": "melbourne-au",
-    "name": "Melbourne",
-    "state": "Victoria",
-    "country": "AU",
-    "lat": -37.8136,
-    "lng": 144.9631,
-    "venueCount": 32,
-    "url": "https://nabarfinder.com/city/melbourne-au/"
-  },
-  {
     "slug": "tampa-fl",
     "name": "Tampa",
     "state": "FL",
@@ -138,6 +128,16 @@
     "lng": -82.4572,
     "venueCount": 32,
     "url": "https://nabarfinder.com/city/tampa-fl/"
+  },
+  {
+    "slug": "melbourne-au",
+    "name": "Melbourne",
+    "state": "Victoria",
+    "country": "AU",
+    "lat": -37.8136,
+    "lng": 144.9631,
+    "venueCount": 31,
+    "url": "https://nabarfinder.com/city/melbourne-au/"
   },
   {
     "slug": "manchester-uk",
