@@ -106,7 +106,7 @@
     "country": "US",
     "lat": 33.749,
     "lng": -84.388,
-    "venueCount": 37,
+    "venueCount": 36,
     "url": "https://nabarfinder.com/city/atlanta-ga/"
   },
   {
@@ -118,16 +118,6 @@
     "lng": 144.9631,
     "venueCount": 33,
     "url": "https://nabarfinder.com/city/melbourne-au/"
-  },
-  {
-    "slug": "london-uk",
-    "name": "London",
-    "state": "England",
-    "country": "GB",
-    "lat": 51.5074,
-    "lng": -0.1278,
-    "venueCount": 32,
-    "url": "https://nabarfinder.com/city/london-uk/"
   },
   {
     "slug": "los-angeles-ca",
@@ -160,14 +150,14 @@
     "url": "https://nabarfinder.com/city/tampa-fl/"
   },
   {
-    "slug": "manchester-uk",
-    "name": "Manchester",
+    "slug": "london-uk",
+    "name": "London",
     "state": "England",
     "country": "GB",
-    "lat": 53.4808,
-    "lng": -2.2426,
-    "venueCount": 30,
-    "url": "https://nabarfinder.com/city/manchester-uk/"
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "venueCount": 31,
+    "url": "https://nabarfinder.com/city/london-uk/"
   },
   {
     "slug": "new-york-ny",
@@ -188,6 +178,16 @@
     "lng": -79.3832,
     "venueCount": 30,
     "url": "https://nabarfinder.com/city/toronto-on/"
+  },
+  {
+    "slug": "manchester-uk",
+    "name": "Manchester",
+    "state": "England",
+    "country": "GB",
+    "lat": 53.4808,
+    "lng": -2.2426,
+    "venueCount": 29,
+    "url": "https://nabarfinder.com/city/manchester-uk/"
   },
   {
     "slug": "orlando-fl",
@@ -230,16 +230,6 @@
     "url": "https://nabarfinder.com/city/nashville-tn/"
   },
   {
-    "slug": "las-vegas-nv",
-    "name": "Las Vegas",
-    "state": "NV",
-    "country": "US",
-    "lat": 36.1699,
-    "lng": -115.1398,
-    "venueCount": 24,
-    "url": "https://nabarfinder.com/city/las-vegas-nv/"
-  },
-  {
     "slug": "portland-or",
     "name": "Portland",
     "state": "OR",
@@ -250,6 +240,16 @@
     "url": "https://nabarfinder.com/city/portland-or/"
   },
   {
+    "slug": "las-vegas-nv",
+    "name": "Las Vegas",
+    "state": "NV",
+    "country": "US",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "venueCount": 23,
+    "url": "https://nabarfinder.com/city/las-vegas-nv/"
+  },
+  {
     "slug": "washington-dc",
     "name": "Washington",
     "state": "DC",
@@ -258,6 +258,16 @@
     "lng": -77.0369,
     "venueCount": 23,
     "url": "https://nabarfinder.com/city/washington-dc/"
+  },
+  {
+    "slug": "cleveland-oh",
+    "name": "Cleveland",
+    "state": "OH",
+    "country": "US",
+    "lat": 41.4993,
+    "lng": -81.6944,
+    "venueCount": 22,
+    "url": "https://nabarfinder.com/city/cleveland-oh/"
   },
   {
     "slug": "raleigh-durham-nc",
@@ -278,16 +288,6 @@
     "lng": -122.3321,
     "venueCount": 22,
     "url": "https://nabarfinder.com/city/seattle-wa/"
-  },
-  {
-    "slug": "salt-lake-city-ut",
-    "name": "Salt Lake City",
-    "state": "UT",
-    "country": "US",
-    "lat": 40.7608,
-    "lng": -111.891,
-    "venueCount": 21,
-    "url": "https://nabarfinder.com/city/salt-lake-city-ut/"
   },
   {
     "slug": "st-louis-mo",
@@ -340,16 +340,6 @@
     "url": "https://nabarfinder.com/city/cincinnati-oh/"
   },
   {
-    "slug": "cleveland-oh",
-    "name": "Cleveland",
-    "state": "OH",
-    "country": "US",
-    "lat": 41.4993,
-    "lng": -81.6944,
-    "venueCount": 20,
-    "url": "https://nabarfinder.com/city/cleveland-oh/"
-  },
-  {
     "slug": "grand-rapids-mi",
     "name": "Grand Rapids",
     "state": "MI",
@@ -400,6 +390,16 @@
     "url": "https://nabarfinder.com/city/pittsburgh-pa/"
   },
   {
+    "slug": "salt-lake-city-ut",
+    "name": "Salt Lake City",
+    "state": "UT",
+    "country": "US",
+    "lat": 40.7608,
+    "lng": -111.891,
+    "venueCount": 20,
+    "url": "https://nabarfinder.com/city/salt-lake-city-ut/"
+  },
+  {
     "slug": "baltimore-md",
     "name": "Baltimore",
     "state": "MD",
@@ -420,16 +420,6 @@
     "url": "https://nabarfinder.com/city/columbus-oh/"
   },
   {
-    "slug": "detroit-mi",
-    "name": "Detroit",
-    "state": "MI",
-    "country": "US",
-    "lat": 42.3314,
-    "lng": -83.0458,
-    "venueCount": 19,
-    "url": "https://nabarfinder.com/city/detroit-mi/"
-  },
-  {
     "slug": "indianapolis-in",
     "name": "Indianapolis",
     "state": "IN",
@@ -448,6 +438,16 @@
     "lng": -85.7585,
     "venueCount": 19,
     "url": "https://nabarfinder.com/city/louisville-ky/"
+  },
+  {
+    "slug": "detroit-mi",
+    "name": "Detroit",
+    "state": "MI",
+    "country": "US",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "venueCount": 18,
+    "url": "https://nabarfinder.com/city/detroit-mi/"
   },
   {
     "slug": "new-orleans-la",
